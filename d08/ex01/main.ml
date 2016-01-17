@@ -18,5 +18,6 @@ let () =
 	print_endline (new Molecule.carbon_monoxyde)#to_string;
   	print_endline (new Molecule.aspirin)#to_string;
   	print_endline (new Molecule.caffeine)#to_string;
+  	print_endline (new Molecule.trinitrotoluene)#to_string;
   	print_endline (string_of_bool ((new Molecule.water)#equals (new Molecule.water)));
   	print_endline (string_of_bool ((new Molecule.water)#equals (new Molecule.aspirin)))

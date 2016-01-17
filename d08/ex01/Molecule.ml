@@ -56,3 +56,8 @@ class caffeine =
 	object 
 		inherit molecule "caffeine" [c; c; c; c; c; c; c; c; h ;h ;h ;h ;h ;h ;h ;h ;h ;h; o ;o; n ;n ;n ;n] 
 	end
+
+class trinitrotoluene =
+	object
+		inherit molecule "trinitrotoluene" [n; n; n; h; h; h; h; h; o; o; o; o; o; o; c; c; c; c; c; c; c]
+	end
