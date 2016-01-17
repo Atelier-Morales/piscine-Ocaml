@@ -1,0 +1,13 @@
+let () =
+	print_endline "Atom list:";
+	print_endline (new Atom.hydrogen)#to_string;
+	print_endline (new Atom.carbon)#to_string;
+	print_endline (new Atom.oxygen)#to_string;
+	print_endline (new Atom.calcium)#to_string;
+	print_endline (new Atom.helium)#to_string;
+	print_endline (new Atom.nitrogen)#to_string;
+	print_endline (new Atom.magnesium)#to_string;
+	print_endline (new Atom.uranium)#to_string;
+	print_endline (new Atom.aluminum)#to_string;
+	print_endline (new Atom.potassium)#to_string;
+	print_endline (new Atom.sodium)#to_string
